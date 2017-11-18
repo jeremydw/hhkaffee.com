@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang={{doc.locale}}>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <meta property=og:image content=https://hhkaffee.com{{g.static('/source/media/logo-social.png').url.path}}>
+  <title>{{doc.title}} · {{podspec.title}}</title>
+  <link rel=stylesheet href={{g.static('/source/setup/default.min.css').url.path}}>
+  <link rel=alternate href={{g.url('/content/pages/feed.yaml').path}} type=application/rss+xml title="{{_('Feed')}}">
+  <div id=notification>{{_('Wir legen gerade richtig los. Erwarten Sie täglich neue Inhalte.')}}</div>
+  <header>
+    {%+ if doc != g.doc('/content/pages/index.md') %}<a href={{g.doc('/content/pages/index.md').url.path}}>{% endif %}<img src={{g.static('/source/media/logo.png').url.path}} alt="{{podspec.title}}">{% if doc != g.doc('/content/pages/index.md') %}</a>{% endif %}
+    <nav>
+      <ul>
+        {% for page in g.docs('pages') %}
+        <li>
+          {%- if doc == page %}
+            {{page.titles('nav')}}
+          {%- else %}
+            <a href={{page.url.path}}>{{page.titles('nav')}}</a>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  {% if doc.logo %}{% if doc.website %}<a href={{doc.website}}>{% endif %}<img src={{doc.logo}} alt="Logo von {{doc.title}}." class=logo>{% if doc.website %}</a>{% endif %}{% endif %}
+  <h1>{{doc.title}}</h1>
+  <section>
+    {% block main %}
+      {{doc.html|safe}}
+    {% endblock %}
+  </section>
+  <footer>{{podspec.description}}</footer>

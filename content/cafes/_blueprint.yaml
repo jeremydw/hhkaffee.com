@@ -1,0 +1,3 @@
+title: Cafés
+path: /cafes/{slug}/
+view: /views/venue.html

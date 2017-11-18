@@ -1,0 +1,3 @@
+title: Röstereien
+path: /roestereien/{slug}/
+view: /views/venue.html

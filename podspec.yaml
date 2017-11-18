@@ -1,0 +1,32 @@
+title@: "HH Kaffee"
+description@: "HH Kaffee ❤ Kaffee in und aus Hamburg"
+
+localization:
+  default_locale: de
+  locales:
+  - de
+
+static_dirs:
+- static_dir: /source/media/
+  serve_at: /media/
+- static_dir: /source/root/
+  serve_at: /
+- static_dir: /source/setup/
+  serve_at: /setup/
+
+preprocessors:
+- kind: sass
+  sass_dir: /source/setup/sass/
+  out_dir: /source/setup/
+
+sitemap:
+  enabled: true
+
+deployments:
+  default:
+    destination: local
+    out_dir: ../../hhkaffee.com/
+    env:
+      scheme: https
+      host: hhkaffee.com
+      port: 443

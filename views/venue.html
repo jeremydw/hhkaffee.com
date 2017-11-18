@@ -1,0 +1,52 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+  {{doc.html|safe}}
+  {# @@ Make sure to only issue favorite interpunct when there is a coffee or espresso price #}
+  <p>
+    {%- if doc.coffee %}{{_('Kaffee ab')}} {{doc.coffee}}&nbsp;€ · {% endif %}
+    {%- if doc.espresso %}{{_('Espresso')}} {{doc.espresso}}&nbsp;€ · {% endif %}
+    {{-_('WLAN:')}} {{doc.internet}}
+    {%- if doc.favorite %} · HH-Kaffee-Favorit ★{% endif %}
+  <h2 id=websites>{{doc.title}} {{_('online')}}</h2>
+  <ul>
+    {% if doc.website %}
+      <li><a href={{doc.website}}>{{_('Website')}}</a>
+    {% endif %}
+    {% if doc.twitter %}
+      <li><a href={{doc.twitter}}>{{_('Twitter')}}</a>
+    {% endif %}
+    {% if doc.facebook %}
+      <li><a href={{doc.facebook}}>{{_('Facebook')}}</a>
+    {% endif %}
+    {% if doc.instagram %}
+      <li><a href={{doc.instagram}}>{{_('Instagram')}}</a>
+    {% endif %}
+    {% if doc.email %}
+      <li><a href=mailto:{{doc.email}}>{{_('E-Mail')}}</a>
+    {% endif %}
+  </ul>
+  {% if doc.locations %}
+    <h2 id=locations>{{_('Adressen und Öffnungszeiten')}}</h2>
+    <ul>
+      {% for location in doc.locations %}
+      <li>
+        <p>{{location.address|safe}}
+        {% if location.hours %}
+        <p>{{location.hours|safe}}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <iframe src="https://www.google.de/maps/embed/v1/search?q={{doc.search}},%20hamburg&amp;key=AIzaSyDgBcUrt1NB0yfwUE715cEdCrtDvzICoz8&amp;language=de"></iframe>
+  <ul class=meta>
+    {% set next_doc = doc.next() %}
+    {% set prev_doc = doc.prev() %}
+    {% if next_doc %}
+      <li>→ <a href={{next_doc.url.path}}>{{next_doc.title}}</a>
+    {% endif %}
+    {% if prev_doc %}
+      <li>← <a href={{prev_doc.url.path}}>{{prev_doc.title}}</a>
+    {% endif %}
+  </ul>
+{% endblock %}

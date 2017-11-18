@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{podspec.title}}</title>
+    <link>{{doc.pod.env.url}}</link>
+    <description>{{podspec.description}}</description>
+    <language>{{doc.locale}}</language>
+      {% for col in g.collections(['cafes', 'posts', 'roasters']) %}
+      {% for item in col.docs(order_by='date')[0:5]|reverse() %}
+      <item>
+        <title>{{item.title}}</title>
+        <link>{{item.url}}</link>
+        <description>{% if item.html %}<![CDATA[
+          {{item.html|striptags|truncate(250, end=' …')}}
+        ]]>{% endif %}</description>
+        {%+ if item.date %}<pubDate>{{item.date|date(format='d MMM YYYY', locale='en')}}</pubDate>{% endif %}
+        <guid>{{item.url}}</guid>
+      </item>
+      {% endfor %}
+      {% endfor %}
+  </channel>
+</rss>

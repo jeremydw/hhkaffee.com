@@ -1,0 +1,26 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+  <p class=meta>{{_('Ein Beitrag vom %(date)s ☕', date=doc.date|date(format='d. MMMM YYYY'))}}
+  {% if doc.asin %}<div><a href=https://www.amazon.de/dp/{{doc.asin}}/?tag=hhk-21><img src=https://images-na.ssl-images-amazon.com/images/P/{{doc.asin}}.jpg alt="Produktbild von {{doc.title}}." class=product></a></div>{% endif %}
+  {{doc.html|safe}}
+  {% if doc.video %}
+    <div class=video>
+      <object type=application/x-shockwave-flash data=https://www.youtube.com/v/{{doc.video}}>
+        <param name=allowFullScreen value=true>
+        <param name=movie value=https://www.youtube.com/v/{{doc.video}}>
+        <param name=wmode value=transparent>
+      </object>
+    </div>
+  {% endif %}
+  <ul class=meta>
+    {% set next_doc = doc.next() %}
+    {% set prev_doc = doc.prev() %}
+    {% if next_doc %}
+      <li>→ <a href={{next_doc.url.path}}>{{next_doc.title}}</a>
+    {% endif %}
+    {% if prev_doc %}
+      <li>← <a href={{prev_doc.url.path}}>{{prev_doc.title}}</a>
+    {% endif %}
+  </ul>
+{% endblock %}

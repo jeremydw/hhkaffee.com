@@ -1,0 +1,35 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+  {{doc.html|safe}}
+  <div id=stage>
+    <section>
+      <h2>{{_('Hamburgs Röstereien')}}</h2>
+      <a href={{g.url('/content/roasters/elbgold.md').path}}><img src={{g.doc('/content/roasters/elbgold.md').logo}} alt="{{g.doc('/content/roasters/elbgold.md').title}}"></a>
+      <p>Unser Lieblingsröster: <a href={{g.url('/content/roasters/elbgold.md').path}}>{{g.doc('/content/roasters/elbgold.md').title}}</a>
+      {% for posts in g.docs('roasters')[6:7] %}
+      <p>{{_('Auch dabei:')}} <a href={{posts.url.path}}>{{posts.title}}</a>
+      {% endfor %}
+      <p>⚐ <a href={{g.url('/content/pages/roasters.md').path}}>{{_('Alle Röstereien')}}</a>
+    </section>
+    <section>
+      <h2>{{_('Hamburgs Cafés')}}</h2>
+      <a href={{g.url('/content/cafes/less-political.md').path}}><img src={{g.doc('/content/cafes/less-political.md').logo}} alt="{{g.doc('/content/cafes/less-political.md').title}}"></a>
+      <p>Unser Lieblingscafé: <a href={{g.url('/content/cafes/less-political.md').path}}>{{g.doc('/content/cafes/less-political.md').title}}</a>
+      {% for posts in g.docs('cafes')[0:1] %}
+      <p>{{_('Auch dabei:')}} <a href={{posts.url.path}}>{{posts.title}}</a>
+      {% endfor %}
+      <p>⚐ <a href={{g.url('/content/pages/cafes.md').path}}>{{_('Alle Cafés')}}</a>
+    </section>
+    <section>
+      <h2>{{_('Meinungen und Empfehlungen')}}</h2>
+      <ul>
+        {% for posts in g.docs('posts', order_by='date', reverse=True)[0:3] %}
+        <li><a href={{posts.url.path}}>{{posts.title}}</a> · {{posts.html|striptags|truncate(125, end=' …')}}
+        {% endfor %}
+      </ul>
+      <p>⚐ <a href={{g.url('/content/pages/posts.md').path}}>{{_('Alle Artikel')}}</a>
+    </section>
+  </div>
+  {# <p>({{_('Von HH Kaffee gibt es auch einen')}} <a href={{g.url('/content/pages/feed.yaml').path}} type=application/rss+xml>{{_('News-Feed')}}</a>.) #}
+{% endblock %}

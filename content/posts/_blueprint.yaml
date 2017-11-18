@@ -1,0 +1,3 @@
+title: Wissen
+path: /artikel/{slug}/
+view: /views/post.html
