@@ -13,7 +13,10 @@ locations:
 - address: Sternstraße 68<br>20357 Hamburg<br><a href=tel:+49-40-33988298>040-33988298</a>
   hours@: Montag – Freitag 8:30–19 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
-internet@: "?"
+coffee: 3,90
+espresso: 1,90
+internet@: ja
 favorite: 1
 
 ---
+Eigentlich auch schon ein Röster, nämlich: HERMETIC. (Weitere Informationen folgen.)
