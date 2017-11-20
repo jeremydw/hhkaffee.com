@@ -1,14 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-::selection,
-nav li a:focus,
-nav li a:hover,
-nav li a:active {
-	color: #fff;
-}
-
 ::selection {
 	background: #000;
+	color: #fff;
 }
 
 html {
@@ -81,6 +75,7 @@ nav li a:focus,
 nav li a:hover,
 nav li a:active {
 	background: #e30613;
+	color: #fff;
 	outline: .5em solid #e30613;
 }
 
