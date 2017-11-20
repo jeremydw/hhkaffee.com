@@ -15,7 +15,7 @@ locations:
   hours@: Montag – Freitag 9–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 - address: Grindelhof 33<br>20146 Hamburg
   hours@: Montag – Freitag 10–18 Uhr<br>Samstag/Sonntag 10–16:30 Uhr
-- address: Rathaus-Passage, Unter dem Rathausmarkt<br>20095 Hamburg
+- address: Rathaus-Passage<br>Unter dem Rathausmarkt<br>20095 Hamburg
   hours@: Montag – Freitag 7:30–14 Uhr
 
 internet@: "?"
