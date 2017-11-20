@@ -15,6 +15,8 @@ locations:
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9–19 Uhr<br>Sonntag 10–19 Uhr
 - address: Mühlenkamp 6a<br>22303 Hamburg<br><a href=tel:+49-40-27882223>040-27882223</a>
 - address: Eppendorfer Baum 26<br>20249 Hamburg<br><a href=tel:+49-40-41625771>040-41625771</a>
+- address: Alsterhaus Hamburg<br>Jungfernstieg 16–20<br>20354 Hamburg
+  hours@: Montag – Samstag 10–20 Uhr 
 
 coffee: 2
 espresso: 2
