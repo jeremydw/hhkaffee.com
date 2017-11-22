@@ -6,6 +6,7 @@
     <description>{{podspec.description}}</description>
     <language>{{doc.locale}}</language>
       {% for col in g.collections(['cafes', 'posts', 'roasters']) %}
+      {# @@ Add back reverse-chronological sorting by date #}
       {% for item in col.docs()[0:5] %}
       <item>
         <title>{{item.title}}</title>
