@@ -28,8 +28,7 @@
         <li><a href={{posts.url.path}}>{{posts.title}}</a> · {{posts.html|striptags|truncate(125, end=' …')}}
         {% endfor %}
       </ul>
-      <p>⚐ <a href={{g.url('/content/pages/posts.md').path}}>{{_('Alle Artikel')}}</a>
+      <p>⚐ <a href={{g.url('/content/pages/posts.md').path}}>{{_('Alle Artikel')}}</a> · <a href={{g.url('/content/pages/feed.yaml').path}}>{{_('RSS-Feed')}}</a>
     </section>
   </div>
-  {# <p>({{_('Von HH Kaffee gibt es auch einen')}} <a href={{g.url('/content/pages/feed.yaml').path}} type=application/rss+xml>{{_('News-Feed')}}</a>.) #}
 {% endblock %}
