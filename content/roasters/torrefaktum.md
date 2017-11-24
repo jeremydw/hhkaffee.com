@@ -15,7 +15,7 @@ locations:
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9:30–18:30 Uhr
 - address: Speersort 1<br>20095 Hamburg
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 10–18 Uhr
-- address: Yokohamstraße 10 / Am Lohsepark 16<br>20457 Hamburg
+- address: Yokohamastraße 10 / Am Lohsepark 16<br>20457 Hamburg
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 internet@: "?"
