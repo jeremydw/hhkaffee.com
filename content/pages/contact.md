@@ -19,4 +19,4 @@ contact: HH Kaffee<br>c/o Jens Oliver Meiert<br>Schwalbenplatz<br>22307 Hamburg
 
 Alle Angaben ohne Gewähr.
 
-Inhaltlich verantwortlich (mit Ausnahme von Änderungen an verlinkten Websites): [Jens Oliver Meiert.](https://meiert.com/)
+Inhaltlich verantwortlich (mit Ausnahme von verlinkten Websites): [Jens Oliver Meiert.](https://meiert.com/)
