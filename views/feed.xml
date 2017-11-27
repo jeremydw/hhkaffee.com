@@ -5,7 +5,7 @@
     <link>{{doc.pod.env.url}}</link>
     <description>{{podspec.description}}</description>
     <language>{{doc.locale}}</language>
-      {% for items in g.collections(['cafes', 'posts', 'roasters']) %}
+      {% for items in g.collections(['roasters', 'cafes', 'posts']) %}
       {% for item in (items.docs(order_by='date', reverse=True) | list)[0:5] %}
       <item>
         <title>{{item.title}}</title>
