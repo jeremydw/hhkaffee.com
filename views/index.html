@@ -7,7 +7,7 @@
       <h2>{{_('Hamburger Röstereien')}}</h2>
       <a href={{g.url('/content/roasters/elbgold.md').path}}><img src={{g.doc('/content/roasters/elbgold.md').logo}} alt="{{g.doc('/content/roasters/elbgold.md').title}}"></a>
       <p>Unser Lieblingsröster: <a href={{g.url('/content/roasters/elbgold.md').path}}>{{g.doc('/content/roasters/elbgold.md').title}}</a>
-      {% for posts in g.docs('roasters')[6:7] %}
+      {% for posts in g.docs('roasters')[7:8] %}
       <p>{{_('Auch dabei:')}} <a href={{posts.url.path}}>{{posts.title}}</a>
       {% endfor %}
       <p>⚐ <a href={{g.url('/content/pages/roasters.md').path}}>{{_('Alle Röstereien')}}</a>
