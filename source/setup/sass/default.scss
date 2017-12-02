@@ -9,7 +9,7 @@ html {
 	background: #fff;
 	color: #000;
 	font: .75em/1.75 optima, lato, sans-serif;
-	margin: 1em;
+	margin: 1.33em 1em 1em;
 }
 
 body {
@@ -104,7 +104,6 @@ img.product {
 }
 
 div#map,
-div#notification,
 object,
 img.product {
 	border-radius: 2px;
@@ -167,12 +166,6 @@ img.logo:focus,
 img.logo:hover,
 img.logo:active {
 	filter: grayscale(0);
-}
-
-div#notification {
-	border: 2px solid #81d2c7;
-	margin: 0 0 2em;
-	padding: .3em .5em;
 }
 
 h1,
@@ -305,8 +298,7 @@ span,
 		border-top: 1px solid #f1f1f1;
 	}
 
-	nav,
-	div#notification {
+	nav {
 		display: none;
 	}
 
