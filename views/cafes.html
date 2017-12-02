@@ -18,7 +18,6 @@
     }
 
     var venues = [
-      {# https://www.gps-coordinates.net/ #}
       {% for cafe in g.docs('cafes') %}
       {% for cafelocation in cafe.locations %}
         ['{{cafe.title}}', {{cafelocation.coordinates}}],

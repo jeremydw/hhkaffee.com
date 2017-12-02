@@ -2,7 +2,6 @@
 
 {% block main %}
   {{doc.html|safe}}
-  {# @@ Make sure to only issue favorite interpunct when there is a coffee or espresso price #}
   <p>
     {%- if doc.coffee %}{{_('Kaffee ab')}} {{doc.coffee}}&nbsp;€ · {% endif %}
     {%- if doc.espresso %}{{_('Espresso')}} {{doc.espresso}}&nbsp;€ · {% endif %}
