@@ -10,8 +10,10 @@ search: speicherstadt%20kaffeerösterei
 
 locations:
 - address: Kehrwieder 5<br>20457 Hamburg<br><a href=tel:+49-040-537998510>040-537998510</a>
+  coordinates: "53.5436653,9.988141799999994"
   hours@: Montag – Sonntag 10–19 Uhr
 - address: Eppendorfer Baum 38<br>20249 Hamburg<br><a href=tel:+49-40-537998580>040-537998580</a>
+  coordinates: "53.58460789999999,9.982469700000024"
   hours@: Montag – Freitag 9–18 Uhr<br>Samstag 10–18 Uhr
 
 coffee: 4

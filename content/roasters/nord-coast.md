@@ -11,6 +11,7 @@ search: nord%20coast
 
 locations:
 - address: Deichstraße 9<br>20459 Hamburg<br><a href=tel:+49-40-36093499>040-36093499</a>
+  coordinates: "53.5465468,9.988025600000014"
   hours@: Montag – Freitag 9–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 coffee: 3,90

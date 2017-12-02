@@ -12,10 +12,13 @@ search: public%20coffee
 
 locations:
 - address: Wexstraße 28<br>20355 Hamburg
+  coordinates: "53.5513791,9.982530199999928"
   hours@: Montag – Freitag 8:30–18 Uhr<br>Samstag/Sonntag 10:30–17 Uhr
 - address: Goldbekplatz 1<br>22303 Hamburg
+  coordinates: "53.58365939999999,10.009117500000002"
   hours@: Montag – Freitag 7:45–18 Uhr<br>Samstag 9–18 Uhr<br>Sonntag 10–18 Uhr
 - address: Brandstwiete 3<br>20457 Hamburg
+  coordinates: "53.5469479,9.9977212"
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag/Sonntag 10–17 Uhr
 
 internet@: "?"

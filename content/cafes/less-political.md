@@ -11,6 +11,7 @@ search: less%20political
 
 locations:
 - address: Sternstraße 68<br>20357 Hamburg<br><a href=tel:+49-40-33988298>040-33988298</a>
+  coordinates: "53.5601083,9.966996900000026"
   hours@: Montag – Freitag 8:30–19 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 coffee: 3,90

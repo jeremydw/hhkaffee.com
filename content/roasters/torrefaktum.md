@@ -12,10 +12,13 @@ search: torrefaktum
 
 locations:
 - address: Bahrenfelder Straße 237<br>22765 Hamburg<br><a href=tel:+49-40-39893770>040-39893770</a>
+  coordinates: "53.5569412,9.92774970000005"
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9:30–18:30 Uhr
 - address: Speersort 1<br>20095 Hamburg
+  coordinates: "53.5495575,9.998602600000027"
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 10–18 Uhr
 - address: Yokohamastraße 10 / Am Lohsepark 16<br>20457 Hamburg
+  coordinates: "53.54232769999999,10.00454979999995"
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 internet@: "?"

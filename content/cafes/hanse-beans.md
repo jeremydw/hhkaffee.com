@@ -10,6 +10,7 @@ search: hanse%20beans
 
 locations:
 - address: Fröbelstraße 2<br>20146 Hamburg
+  coordinates: "53.5654,9.98348999999996"
   hours@: Montag – Freitag 9–18 Uhr
 
 espresso: 1,70

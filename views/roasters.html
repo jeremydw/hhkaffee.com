@@ -3,10 +3,39 @@
 {% block main %}
   {{doc.html|safe}}
   <ul>
-    {% for roasters in g.docs('roasters')|sort(attribute='title') %}
-    <li><a href={{roasters.url.path}}>{{roasters.title}}</a> {% if roasters.favorite %}<span>★</span>{% endif %}
+    {% for roaster in g.docs('roasters')|sort(attribute='title') %}
+    <li><a href={{roaster.url.path}}>{{roaster.title}}</a> {% if roaster.favorite %}<span>★</span>{% endif %}
     {% endfor %}
   </ul>
-  <iframe src="https://www.google.de/maps/embed/v1/search?q={{_('rösterei')}}%20hamburg&amp;key=AIzaSyDgBcUrt1NB0yfwUE715cEdCrtDvzICoz8&amp;language=de"></iframe>
-  <p>(Die auf der Karte gezeigten Röstereien sind nicht alle auf HH Kaffee vertreten, da wir diese sorgfältig auswählen. Wenn Sie eine Rösterei besonders vermissen, <a href={{g.url('/content/pages/contact.md').path}}>{{_('kontaktieren Sie uns bitte')}}</a>.)
+  <div id=map></div>
+  <script>
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {lat: 53.57131, lng: 9.94578}
+      });
+      setMarkers(map);
+    }
+
+    var venues = [
+      {# https://www.gps-coordinates.net/ #}
+      {% for roaster in g.docs('roasters') %}
+      {% for roasterlocation in roaster.locations %}
+        ['{{roaster.title}}', {{roasterlocation.coordinates}}],
+      {% endfor %}
+      {% endfor %}
+    ];
+
+    function setMarkers(map) {
+      for (var i = 0; i < venues.length; i++) {
+        var venue = venues[i];
+        var marker = new google.maps.Marker({
+          position: {lat: venue[1], lng: venue[2]},
+          map: map,
+          title: venue[0]
+        });
+      }
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgBcUrt1NB0yfwUE715cEdCrtDvzICoz8&amp;callback=initMap&amp;language=de" async defer></script>
 {% endblock %}

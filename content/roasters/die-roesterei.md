@@ -8,6 +8,7 @@ search: die%20rösterei
 
 locations:
 - address: Steinstraße 19b<br>20095 Hamburg<br><a href=tel:+49-40-32526364>040-32526364</a>
+  coordinates: "53.5499616,10.001921700000025"
   hours@: Montag – Samstag 10–19 Uhr
 
 coffee: 2

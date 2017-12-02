@@ -12,11 +12,15 @@ search: elbgold
 
 locations:
 - address: Lagerstraße 34c<br>20357 Hamburg<br><a href=tel:+49-40-23517520>040-23517520</a>
+  coordinates: "53.56289229999999,9.966776600000003"
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9–19 Uhr<br>Sonntag 10–19 Uhr
 - address: Mühlenkamp 6a<br>22303 Hamburg<br><a href=tel:+49-40-27882223>040-27882223</a>
+  coordinates: "53.5802054,10.012962799999968"
 - address: Eppendorfer Baum 26<br>20249 Hamburg<br><a href=tel:+49-40-41625771>040-41625771</a>
+  coordinates: "53.5839739,9.983915499999966"
 - address: Alsterhaus Hamburg<br>Jungfernstieg 16–20<br>20354 Hamburg
-  hours@: Montag – Samstag 10–20 Uhr 
+  coordinates: "53.5529911,9.991460299999972"
+  hours@: Montag – Samstag 10–20 Uhr
 
 coffee: 2
 espresso: 2

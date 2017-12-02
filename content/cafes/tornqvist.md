@@ -12,6 +12,7 @@ search: tornqvist
 
 locations:
 - address: Neuer Pferdemarkt 12<br>20359 Hamburg
+  coordinates: "53.5590207,9.964193000000023"
   hours@: Montag – Freitag 9–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 coffee: 4,50

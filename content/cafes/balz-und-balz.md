@@ -11,6 +11,7 @@ search: balz%20und%20balz
 
 locations:
 - address: Lehmweg 6<br>20251 Hamburg<br><a href=tel:+49-40-60438833>040-60438833</a>
+  coordinates: "53.5794726,9.976665400000002"
   hours@: Dienstag – Freitag 8–18 Uhr<br>Samstag/Sonntag 9–17 Uhr
 
 coffee: 2,80
