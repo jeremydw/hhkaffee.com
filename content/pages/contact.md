@@ -12,11 +12,11 @@ website: /
 twitter: https://twitter.com/hhkaffeecom
 facebook: https://www.facebook.com/hhkaffeecom
 
-contact: HH Kaffee<br>c/o Jens Oliver Meiert<br>Schwalbenplatz<br>22307 Hamburg
+contact: HH Kaffee<br>c/o <a href=https://meiert.com/>Jens Oliver Meiert</a><br>Schwalbenplatz<br>22307 Hamburg
 
 ---
 ## Rechtliche Hinweise</h2>
 
 Alle Angaben ohne Gewähr.
 
-Inhaltlich verantwortlich (mit Ausnahme von verlinkten Websites): [Jens Oliver Meiert.](https://meiert.com/)
+Inhaltlich verantwortlich (mit Ausnahme von verlinkten Websites): Jens Oliver Meiert.
