@@ -21,7 +21,7 @@
       </ul>
     </nav>
   </header>
-  {% if doc.logo %}{% if doc.website %}<a href={{doc.website}}>{% endif %}<img src={{doc.logo}} alt="Logo von {{doc.title}}." class=logo>{% if doc.website %}</a>{% endif %}{% endif %}
+  {% if doc.logo %}{% if doc.website %}<a href={{doc.website}}>{% endif %}<img src="{{doc.logo}}" alt="Logo von {{doc.title}}." class=logo>{% if doc.website %}</a>{% endif %}{% endif %}
   <h1>{{doc.title}}</h1>
   <section>
     {% block main %}
