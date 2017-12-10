@@ -291,6 +291,16 @@ span,
 
 @media screen and (max-width: 390px) {
 
+	nav li {
+		margin: .33em;
+	}
+
+	nav li a:focus,
+	nav li a:hover,
+	nav li a:active {
+		outline-width: .33em;
+	}
+
 	div#stage section {
 		float: none;
 		padding-right: 0 !important;
