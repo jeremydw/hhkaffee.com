@@ -1,7 +1,7 @@
 ---
-$title@: Artikel
+$title@: Schnack
 $view: /views/posts.html
-$path@: /artikel/
+$path@: /schnack/
 $order: 3
 
 ---
