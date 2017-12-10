@@ -6,6 +6,9 @@ localization:
   locales:
   - de
 
+sitemap:
+  enabled: true
+
 static_dirs:
 - static_dir: /source/media/
   serve_at: /media/
@@ -19,8 +22,8 @@ preprocessors:
   sass_dir: /source/setup/sass/
   out_dir: /source/setup/
 
-sitemap:
-  enabled: true
+ext:
+- extensions.html_min.HtmlMinExtension
 
 deployments:
   default:
