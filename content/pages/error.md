@@ -1,6 +1,6 @@
 ---
 $title@: Fehler
-$path: /fehler/
+$path@: /fehler/
 $hidden: true
 
 ---
