@@ -21,8 +21,7 @@ header,
 nav ul,
 div#stage,
 h2#locations + ul,
-h2#websites + ul,
-ul.meta {
+h2#websites + ul {
 	overflow: auto;
 }
 
@@ -86,13 +85,40 @@ ul.meta {
 	margin: 1em 0;
 }
 
+p#promo,
+div.video,
+ul.meta {
+	text-align: center;
+}
+
+p#promo,
+div#map,
+object,
+img.product {
+	border-radius: 2px;
+}
+
+p#promo,
+div#map ~ ul.meta {
+	margin-top: 1.38em;
+}
+
+p#promo {
+	background: #fcfcfc;
+	border: 2px solid #f7f7f7;
+	padding: .3em .2em .2em;
+}
+
+p#promo:hover {
+	border-color: #f4f4f4;
+}
+
 p + ul + div#map {
 	margin-top: 2em;
 }
 
 div.video {
 	margin: 2em 0 1em;
-	text-align: center;
 }
 
 div#map,
@@ -101,12 +127,6 @@ object,
 img.logo,
 img.product {
 	border: 2px solid;
-}
-
-div#map,
-object,
-img.product {
-	border-radius: 2px;
 }
 
 div#map,
@@ -141,7 +161,6 @@ div#stage section h2 {
 }
 
 div#stage section img,
-ul.meta li,
 img.logo,
 img.product {
 	float: right;
@@ -218,7 +237,8 @@ ol {
 }
 
 ul.meta li {
-	padding-left: 1em;
+	display: inline;
+	padding: 0 .5em;
 }
 
 object {
@@ -298,7 +318,8 @@ span,
 		border-top: 1px solid #f1f1f1;
 	}
 
-	nav {
+	nav,
+	p#promo {
 		display: none;
 	}
 
