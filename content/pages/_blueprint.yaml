@@ -1,3 +1,2 @@
-title: Pages                 # Collection's title.
 path: /{slug}/               # The URL path format.
-view: /views/pages.html      # The template to use.
+view: /views/page.html      # The template to use.
