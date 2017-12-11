@@ -21,4 +21,4 @@ internet@: ja
 favorite: 1
 
 ---
-Ja! Tōrnqvist hat nun eine feste Filiale, nachdem sie Hamburg drei Jahre lang mit einem VW-Bulli versorgt haben. Präzisionskaffee!
+Ja! Tōrnqvist hat nun eine feste Filiale, nachdem sie Hamburg drei Jahre lang mit einem VW-Bulli versorgt haben. Präzisionskaffee.
