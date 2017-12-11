@@ -18,4 +18,4 @@ espresso: 2
 internet@: ja
 
 ---
-Die mit dem berühmten St. Pauli Deathpresso.
+Die mit dem Deathpresso.
