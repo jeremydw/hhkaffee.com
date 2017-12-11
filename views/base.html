@@ -13,7 +13,7 @@
         {% for page in g.docs('pages') %}
         <li>
           {%- if doc == page %}
-            {{page.titles('nav')}}
+            {{page.titles('nav')|safe}}
           {%- else %}
             <a href={{page.url.path}}>{{page.titles('nav')|safe}}</a>
           {% endif %}
