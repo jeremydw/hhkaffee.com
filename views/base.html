@@ -15,7 +15,7 @@
           {%- if doc == page %}
             {{page.titles('nav')}}
           {%- else %}
-            <a href={{page.url.path}}>{{page.titles('nav')}}</a>
+            <a href={{page.url.path}}>{{page.titles('nav')|safe}}</a>
           {% endif %}
         {% endfor %}
       </ul>
