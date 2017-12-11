@@ -42,6 +42,7 @@ h2#websites + ul li {
 }
 
 header img {
+	border: 0;
 	margin-right: .5em;
 	width: 53px;
 }
@@ -151,6 +152,7 @@ div#stage section:nth-child(2n-1) {
 }
 
 div#stage section:last-child {
+	padding-right: 0;
 	width: 100%;
 }
 
