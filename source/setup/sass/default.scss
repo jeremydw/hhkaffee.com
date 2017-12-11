@@ -5,11 +5,17 @@
 	color: #fff;
 }
 
+html,
+div#map,
+h2#locations + ul li p {
+	margin: 0;
+}
+
 html {
 	background: #fff;
 	color: #000;
 	font: .75em/1.75 optima, lato, sans-serif;
-	margin: 1.33em 1em 1em;
+	padding: 1.33em 1em 1em;
 }
 
 body {
@@ -18,7 +24,6 @@ body {
 }
 
 header,
-nav ul,
 div#stage,
 h2#locations + ul,
 h2#websites + ul {
@@ -26,11 +31,10 @@ h2#websites + ul {
 }
 
 header {
-	margin: 0 0 1em;
+	margin: 0 0 2em;
 }
 
 header img,
-nav li,
 div#stage section,
 h2#locations + ul li p,
 h2#websites + ul li {
@@ -59,8 +63,15 @@ nav ul {
 	padding: .58em 0;
 }
 
+nav li,
+ul.meta li {
+	display: inline;
+}
+
 nav li {
-	margin: .5em;
+	padding: .5em;
+	position: relative;
+	top: .5em;
 }
 
 nav li a:focus,
@@ -109,10 +120,6 @@ p#promo {
 	padding: .3em .2em .2em;
 }
 
-p#promo:hover {
-	border-color: #f4f4f4;
-}
-
 p + ul + div#map {
 	margin-top: 2em;
 }
@@ -127,11 +134,6 @@ object,
 img.logo,
 img.product {
 	border: 2px solid;
-}
-
-div#map,
-h2#locations + ul li p {
-	margin: 0;
 }
 
 div#map {
@@ -237,7 +239,6 @@ ol {
 }
 
 ul.meta li {
-	display: inline;
 	padding: 0 .5em;
 }
 
@@ -291,14 +292,16 @@ span,
 
 @media screen and (max-width: 390px) {
 
-	nav li {
-		margin: .33em;
+	header {
+		margin-bottom: 1em;
 	}
 
-	nav li a:focus,
-	nav li a:hover,
-	nav li a:active {
-		outline-width: .33em;
+	nav li {
+		top: .25em;
+	}
+
+	nav li a {
+		outline-width: .25em !important;
 	}
 
 	div#stage section {
@@ -318,10 +321,7 @@ span,
 	html,
 	body {
 		margin: 1em 0;
-	}
-
-	header {
-		margin-bottom: 2em;
+		padding: 0;
 	}
 
 	footer {
