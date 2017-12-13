@@ -16,7 +16,6 @@ locations:
 coffee: 3,90
 espresso: 1,90
 internet@: ja
-favorite: 1
 
 ---
 Eigentlich auch schon ein Röster, nämlich: HERMETIC. (Weitere Informationen folgen.)

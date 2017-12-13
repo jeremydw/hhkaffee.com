@@ -13,5 +13,6 @@ locations:
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
 internet@: "?"
+favorite: 1
 
 ---
