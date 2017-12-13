@@ -6,7 +6,6 @@ email: info@kopiba.de
 website: http://www.kopiba.de/
 twitter: https://twitter.com/kopiba
 facebook: https://www.facebook.com/kopiba
-search: kopiba
 
 locations:
 - address: Beim Grünen Jäger 24<br>20359 Hamburg<br><a href=tel:+49-40-343824>040-343824</a>

@@ -8,7 +8,6 @@ website: http://www.elbgold.com/
 twitter: https://twitter.com/elbgold
 facebook: https://www.facebook.com/elbgold
 instagram: https://www.instagram.com/elbgoldkaffee/
-search: elbgold
 
 locations:
 - address: Lagerstraße 34c<br>20357 Hamburg<br><a href=tel:+49-40-23517520>040-23517520</a>

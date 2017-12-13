@@ -6,7 +6,6 @@ logo: https://scontent-frt3-1.cdninstagram.com/t51.2885-19/s320x320/10654984_166
 website: http://www.hansebeans.de/
 facebook: https://www.facebook.com/hansebeans
 instagram: https://www.instagram.com/hansebeans/
-search: hanse%20beans
 
 locations:
 - address: Fröbelstraße 2<br>20146 Hamburg

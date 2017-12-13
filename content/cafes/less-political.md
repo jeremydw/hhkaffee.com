@@ -7,7 +7,6 @@ website: https://lesspolitical.com/
 twitter: https://twitter.com/lesspolitical
 facebook: https://www.facebook.com/lesspolitical
 instagram: https://www.instagram.com/lesspolitical/
-search: less%20political
 
 locations:
 - address: Sternstraße 68<br>20357 Hamburg<br><a href=tel:+49-40-33988298>040-33988298</a>

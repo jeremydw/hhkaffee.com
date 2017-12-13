@@ -4,7 +4,6 @@ $date: 2017-09-25
 
 email: info@dieroesterei.de
 website: http://www.die-roesterei.com/
-search: die%20rösterei
 
 locations:
 - address: Steinstraße 19b<br>20095 Hamburg<br><a href=tel:+49-40-32526364>040-32526364</a>

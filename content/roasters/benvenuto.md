@@ -8,7 +8,6 @@ website: https://www.benvenuto-hamburg.de/
 twitter: https://twitter.com/benvenutocaffe
 facebook: https://www.facebook.com/benvenutocaffeditalia
 instagram: https://www.instagram.com/ilovebenvenuto/
-search: benvenuto
 
 locations:
 - address: Heinrich-Barth-Straße 15<br>20146 Hamburg<br><a href=tel:+49-40-4102920>040-4102920</a>

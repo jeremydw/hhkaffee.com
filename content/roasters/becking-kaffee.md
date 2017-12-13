@@ -8,7 +8,6 @@ website:
 twitter: 
 facebook: 
 instagram: 
-search: elbgold
 
 locations:
 - address: Leverkusenstraße 31<br>22761 Hamburg<br><a href=tel:+49-40-8519283>040-8519283</a>

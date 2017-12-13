@@ -8,7 +8,6 @@ website: http://torrefaktum.de/
 twitter: https://twitter.com/torrefaktum
 facebook: https://www.facebook.com/torrefaktum
 instagram: https://www.instagram.com/torrefaktum/
-search: torrefaktum
 
 locations:
 - address: Bahrenfelder Straße 237<br>22765 Hamburg<br><a href=tel:+49-40-39893770>040-39893770</a>

@@ -6,7 +6,6 @@ logo: https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/1395417_597705213620250_1283
 website: http://stockholmespressoclub.de/
 facebook: https://www.facebook.com/stockholmespressoclub
 instagram: https://www.instagram.com/stockholmespressoclub/
-search: stockholm%20espresso%20club
 
 locations:
 - address: Peter-Marquard-Straße 8<br>22303 Hamburg

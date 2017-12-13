@@ -8,7 +8,6 @@ website: https://www.publiccoffeeroasters.com/
 twitter: https://twitter.com/PublicRoasters
 facebook: https://www.facebook.com/publiccoffeeroasters
 instagram: https://www.instagram.com/publiccoffeeroasters/
-search: public%20coffee
 
 locations:
 - address: Wexstraße 28<br>20355 Hamburg

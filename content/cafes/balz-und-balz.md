@@ -7,7 +7,6 @@ email: hello@balzundbalz.de
 website: http://balzundbalz.de/
 facebook: https://www.facebook.com/BalzundBalz
 instagram: https://www.instagram.com/balzundbalz/
-search: balz%20und%20balz
 
 locations:
 - address: Lehmweg 6<br>20251 Hamburg<br><a href=tel:+49-40-60438833>040-60438833</a>

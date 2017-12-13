@@ -6,7 +6,6 @@ logo: https://scontent-frx5-1.cdninstagram.com/t51.2885-19/s320x320/18160890_223
 website: http://www.speicherstadt-kaffee.de/
 facebook: https://www.facebook.com/speicherstadtkaffee
 instagram: https://www.instagram.com/speicherstadt_kaffee/
-search: speicherstadt%20kaffeerösterei
 
 locations:
 - address: Kehrwieder 5<br>20457 Hamburg<br><a href=tel:+49-040-537998510>040-537998510</a>

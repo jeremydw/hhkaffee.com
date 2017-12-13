@@ -4,7 +4,6 @@ $date: 2017-10-01
 
 email: info@carroux.de
 website: https://www.carroux.de/
-search: carroux%20caffee
 
 locations:
 - address: Elbchaussee 583<br>22587 Hamburg<br><a href=tel:+49-40-80050590>040 -80050590</a>

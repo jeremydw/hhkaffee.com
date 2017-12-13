@@ -8,7 +8,6 @@ website: http://tornqvistcoffee.com/
 twitter: https://twitter.com/TORNQVISTCOFFEE
 facebook: https://www.facebook.com/visit.tornqvist
 instagram: https://www.instagram.com/tornqvistcoffee/
-search: tornqvist
 
 locations:
 - address: Neuer Pferdemarkt 12<br>20359 Hamburg

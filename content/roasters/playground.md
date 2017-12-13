@@ -8,7 +8,6 @@ website: https://www.playground-coffee.com/
 twitter: https://twitter.com/playgroundhh
 facebook: https://www.facebook.com/playgroundcoffee
 instagram: https://instagram.com/playgroundcoffee/
-search: playground%20coffee
 
 locations:
 - address: Detlev-Bremer-Straße 21<br>20359 Hamburg
