@@ -15,8 +15,13 @@ locations:
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9–19 Uhr<br>Sonntag 10–19 Uhr
 - address: Mühlenkamp 6a<br>22303 Hamburg<br><a href=tel:+49-40-27882223>040-27882223</a>
   coordinates: "53.5802054,10.012962799999968"
+  hours: "\""
 - address: Eppendorfer Baum 26<br>20249 Hamburg<br><a href=tel:+49-40-41625771>040-41625771</a>
   coordinates: "53.5839739,9.983915499999966"
+  hours: "\""
+- address: Schauenburgerstraße 50<br>20095 Hamburg
+  coordinates: "53.5496884,9.993023600000015"
+  hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9–19 Uhr
 - address: Alsterhaus Hamburg<br>Jungfernstieg 16–20<br>20354 Hamburg
   coordinates: "53.5529911,9.991460299999972"
   hours@: Montag – Samstag 10–20 Uhr

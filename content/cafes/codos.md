@@ -12,6 +12,7 @@ locations:
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag 10–18 Uhr<br>Sonntag 11–17 Uhr
 - address: Bahrenfelder Straße 156<br>22765 Hamburg
   coordinates: "53.553861,9.928945699999986"
+  hours: "\""
 
 coffee: 2
 espresso: 1,80
