@@ -30,7 +30,10 @@
     <ul>
       {% for location in doc.locations %}
       <li>
-        <p>{{location.address|safe}}
+        <p><a href=https://www.google.de/maps/place/{{location.address|replace('<br>', ', ')|replace(' ', '%20')}}>{{location.address|safe}}</a>
+        {%- if location.phone -%}
+        <br><a href=tel:+49-40-{{location.phone|safe}}>040-{{location.phone|safe}}</a>
+        {% endif %}
         {% if location.hours %}
         <p>{{location.hours|safe}}
         {% endif %}
