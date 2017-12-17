@@ -12,7 +12,9 @@ locations:
   coordinates: "53.5827179,10.011801099999957"
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
 
-internet@: "?"
+coffee: 4,50
+espresso: 2,10
+internet@: ja
 favorite: 1
 
 ---
