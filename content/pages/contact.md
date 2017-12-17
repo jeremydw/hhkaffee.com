@@ -15,7 +15,7 @@ facebook: https://www.facebook.com/hhkaffeecom
 contact: HH Kaffee<br>c/o <a href=https://meiert.com/>Jens Oliver Meiert</a><br>Schwalbenplatz<br>22307 Hamburg<br><a href=tel:+49-157-50117717>0157-50117717</a>
 
 ---
-## Rechtliche Hinweise</h2>
+## Rechtliche Hinweise
 
 Alle Angaben ohne Gewähr.
 
