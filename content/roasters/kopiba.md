@@ -8,9 +8,10 @@ twitter: https://twitter.com/kopiba
 facebook: https://www.facebook.com/kopiba
 
 locations:
-- address: Beim Grünen Jäger 24<br>20359 Hamburg<br><a href=tel:+49-40-343824>040-343824</a>
+- address: Beim Grünen Jäger 24<br>20359 Hamburg
   coordinates: "53.55885809999999,9.963507899999968"
   hours@: Montag – Donnerstag 9:30–20 Uhr<br>Freitag 9:30 Uhr – offen<br>Samstag 9 Uhr – offen<br>Sonntag 10–20 Uhr
+  phone: 343824
 
 coffee: 2,90
 espresso: 2

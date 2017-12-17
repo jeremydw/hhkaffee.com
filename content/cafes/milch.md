@@ -7,9 +7,10 @@ website: http://www.milchfeinkost.de/
 facebook: https://www.facebook.com/milchfeinkost
 
 locations:
-- address: Ditmar-Koel-Straße 22<br>20459 Hamburg<br><a href=tel:+49-40-20949035>040-20949035</a>
+- address: Ditmar-Koel-Straße 22<br>20459 Hamburg
   coordinates: "53.54598509999999,9.97467800000004"
   hours@: Montag – Freitag 8:30–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
+  phone: 20949035
 
 internet@: "?"
 

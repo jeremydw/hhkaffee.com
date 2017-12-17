@@ -9,9 +9,10 @@ facebook: https://www.facebook.com/BalzundBalz
 instagram: https://www.instagram.com/balzundbalz/
 
 locations:
-- address: Lehmweg 6<br>20251 Hamburg<br><a href=tel:+49-40-60438833>040-60438833</a>
+- address: Lehmweg 6<br>20251 Hamburg<br>
   coordinates: "53.5794726,9.976665400000002"
   hours@: Dienstag – Freitag 8–18 Uhr<br>Samstag/Sonntag 9–17 Uhr
+  phone: 60438833
 
 coffee: 2,80
 espresso: 1,90

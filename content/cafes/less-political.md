@@ -9,9 +9,10 @@ facebook: https://www.facebook.com/lesspolitical
 instagram: https://www.instagram.com/lesspolitical/
 
 locations:
-- address: Sternstraße 68<br>20357 Hamburg<br><a href=tel:+49-40-33988298>040-33988298</a>
+- address: Sternstraße 68<br>20357 Hamburg
   coordinates: "53.5601083,9.966996900000026"
   hours@: Montag – Freitag 8:30–19 Uhr<br>Samstag/Sonntag 10–18 Uhr
+  phone: 33988298
 
 coffee: 3,90
 espresso: 1,90

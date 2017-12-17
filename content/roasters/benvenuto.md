@@ -10,9 +10,10 @@ facebook: https://www.facebook.com/benvenutocaffeditalia
 instagram: https://www.instagram.com/ilovebenvenuto/
 
 locations:
-- address: Heinrich-Barth-Straße 15<br>20146 Hamburg<br><a href=tel:+49-40-4102920>040-4102920</a>
+- address: Heinrich-Barth-Straße 15<br>20146 Hamburg
   coordinates: "53.5709558,9.980414699999983"
   hours@: Montag – Freitag 9–17 Uhr
+  phone: 4102920
 
 espresso: 1,50
 internet@: nein

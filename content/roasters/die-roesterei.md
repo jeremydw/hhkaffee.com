@@ -6,9 +6,10 @@ email: info@dieroesterei.de
 website: http://www.die-roesterei.com/
 
 locations:
-- address: Steinstraße 19b<br>20095 Hamburg<br><a href=tel:+49-40-32526364>040-32526364</a>
+- address: Steinstraße 19b<br>20095 Hamburg
   coordinates: "53.5499616,10.001921700000025"
   hours@: Montag – Samstag 10–19 Uhr
+  phone: 32526364
 
 coffee: 2
 espresso: 1,80

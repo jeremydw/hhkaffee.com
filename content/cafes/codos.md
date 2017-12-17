@@ -7,9 +7,10 @@ email: info@codos-hh.de
 facebook: https://www.facebook.com/codos.hh
 
 locations:
-- address: Bartelsstraße 26<br>20357 Hamburg<br><a href=tel:+49-40-30747334>040-30747334</a>
+- address: Bartelsstraße 26<br>20357 Hamburg
   coordinates: "53.5623875,9.964579800000024"
   hours@: Montag – Freitag 8–18 Uhr<br>Samstag 10–18 Uhr<br>Sonntag 11–17 Uhr
+  phone: 30747334
 - address: Bahrenfelder Straße 156<br>22765 Hamburg
   coordinates: "53.553861,9.928945699999986"
   hours: "\""

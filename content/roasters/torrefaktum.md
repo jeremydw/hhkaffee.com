@@ -10,9 +10,10 @@ facebook: https://www.facebook.com/torrefaktum
 instagram: https://www.instagram.com/torrefaktum/
 
 locations:
-- address: Bahrenfelder Straße 237<br>22765 Hamburg<br><a href=tel:+49-40-39893770>040-39893770</a>
+- address: Bahrenfelder Straße 237<br>22765 Hamburg
   coordinates: "53.5569412,9.92774970000005"
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 9:30–18:30 Uhr
+  phone: 39893770
 - address: Speersort 1<br>20095 Hamburg
   coordinates: "53.5495575,9.998602600000027"
   hours@: Montag – Freitag 8–19 Uhr<br>Samstag 10–18 Uhr

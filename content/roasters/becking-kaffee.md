@@ -9,9 +9,10 @@ twitter: https://twitter.com/beckingkaffee
 facebook: https://www.facebook.com/beckingkaffee/
 
 locations:
-- address: Leverkusenstraße 31<br>22761 Hamburg<br><a href=tel:+49-40-8519283>040-8519283</a>
+- address: Leverkusenstraße 31<br>22761 Hamburg
   coordinates: "53.5669344,9.932096300000012"
   hours@: Montag – Freitag 8:15–17 Uhr
+  phone: 8519283
 
 coffee: 1,30
 espresso: 1,20
