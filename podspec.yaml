@@ -25,6 +25,10 @@ preprocessors:
 ext:
 - extensions.html_min.HtmlMinExtension
 
+# filter:
+#   include_paths:
+#   - "\.htaccess"
+
 deployments:
   default:
     destination: local
