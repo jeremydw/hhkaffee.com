@@ -2,7 +2,7 @@
 $title@: MAYA Kaffeerösterei
 $date: 2017-10-27
 
-logo: http://www.biokiste-hamburg.de/bilder/225bioki/Logo.JPG
+logo: https://www.biokiste-hamburg.de/bilder/225bioki/Logo.JPG
 email: info@mayakaffeeroesterei.de
 website: http://www.mayakaffeeroesterei.de/
 facebook: https://www.facebook.com/mayakaffeeroesterei
