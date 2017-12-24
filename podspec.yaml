@@ -14,6 +14,9 @@ static_dirs:
   serve_at: /media/
 - static_dir: /source/root/
   serve_at: /
+  filter:
+    include_paths:
+    - \.htaccess
 - static_dir: /source/setup/
   serve_at: /setup/
 
@@ -25,10 +28,6 @@ preprocessors:
 ext:
 - extensions.html_min.HtmlMinExtension
 
-# filter:
-#   include_paths:
-#   - "\.htaccess"
-
 deployments:
   default:
     destination: local
@@ -36,4 +35,3 @@ deployments:
     env:
       scheme: https
       host: hhkaffee.com
-      port: 443
