@@ -1,0 +1,39 @@
+# Startup Routine
+AddCharset utf-8 .css
+AddCharset utf-8 .js
+AddCharset utf-8 .txt
+AddCharset utf-8 .xml
+AddDefaultCharset utf-8
+AddOutputFilterByType DEFLATE application/xml text/css text/html text/javascript text/plain
+CheckSpelling On
+ContentDigest On
+DefaultLanguage en
+ExpiresActive On
+ExpiresByType application/javascript A86400
+ExpiresByType image/gif A604800
+ExpiresByType image/jpeg A604800
+ExpiresByType image/png A604800
+ExpiresByType text/css A86400
+FileETag All
+
+# Course Calibration
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTPS} !=on [OR]
+	RewriteCond %{HTTP_HOST} !^hhkaffee\.com$ [NC]
+	RewriteRule ^ https://hhkaffee.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# Course Alterations: P2
+RedirectMatch 301 /artikel/(.*) https://hhkaffee.com/schnack/$1
+RedirectMatch 301 /produkte/(.*) https://hhkaffee.com/schnack/$1
+RedirectMatch 301 /wissen/(.*) https://hhkaffee.com/schnack/$1
+
+# Course Alterations: P3
+Redirect 302 /feed/index.html https://hhkaffee.com/feed/index.xml
+
+# Emergency
+ErrorDocument 401 /fehler/
+ErrorDocument 403 /fehler/
+ErrorDocument 404 /fehler/
+ErrorDocument 500 /fehler/
