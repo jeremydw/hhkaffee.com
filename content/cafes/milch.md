@@ -2,7 +2,7 @@
 $title@: Milch
 $date: 2017-10-01
 
-logo: https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p480x480/10941914_347944038725107_7400699328284130501_n.jpg?oh=d5d6687078ff86627f6c7870b7190af0&oe=5A3B6776
+logo: https://scontent-frt3-2.xx.fbcdn.net/v/t31.0-8/10931622_347944038725107_7400699328284130501_o.jpg?oh=3e02d7541f306b6327f120f84de20ef8&oe=5AB2433B
 website: http://www.milchfeinkost.de/
 facebook: https://www.facebook.com/milchfeinkost
 
