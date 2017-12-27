@@ -3,7 +3,7 @@
 {% block main %}
   {{doc.html|safe}}
   <p>
-    {%- if doc.coffee %}{{_('Kaffee ab')}} {{doc.coffee}}&nbsp;€ · {% endif %}
+    {%- if doc.coffee %}{{_('Filterkaffee ab')}} {{doc.coffee}}&nbsp;€ · {% endif %}
     {%- if doc.espresso %}{{_('Espresso')}} {{doc.espresso}}&nbsp;€ · {% endif %}
     {{-_('WLAN:')}} {{doc.internet}}
     {%- if doc.favorite %} · HH-Kaffee-Favorit ★{% endif %}
