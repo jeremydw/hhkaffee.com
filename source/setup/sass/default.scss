@@ -131,7 +131,9 @@ div#promo {
 }
 
 div#promo p {
-	margin: .5em 0;
+	display: table-cell;
+	margin: 0 1%;
+	width: 48%;
 }
 
 div#promo p:first-child,
