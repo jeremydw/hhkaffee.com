@@ -28,3 +28,7 @@
     </section>
   </div>
 {% endblock %}
+
+{% block update -%}
+  <br><span>{{_('Letzte Aktualisierung:')}} {{g.date()|date(format='d. MMMM YYYY')}}</span>
+{% endblock %}
