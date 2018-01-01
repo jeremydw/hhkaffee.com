@@ -13,9 +13,6 @@ locations:
 - address: Detlev-Bremer-Straße 21<br>20359 Hamburg
   coordinates: "53.551671,9.965384699999959"
   hours@: Montag – Freitag 9–18 Uhr<br>Samstag/Sonntag 10–18 Uhr
-- address: Grindelhof 33<br>20146 Hamburg
-  coordinates: "53.56869039999999,9.982888199999934"
-  hours@: Montag – Freitag 10–18 Uhr<br>Samstag/Sonntag 10–16:30 Uhr
 - address: Rathaus-Passage<br>Unter dem Rathausmarkt<br>20095 Hamburg
   coordinates: "53.5514265,9.993245800000068"
   hours@: Montag – Freitag 7:30–14 Uhr
