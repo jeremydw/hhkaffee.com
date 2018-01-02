@@ -311,6 +311,11 @@ span,
 		top: .25em;
 	}
 
+	nav li:nth-child(3):after {
+		content: '\A';
+		white-space: pre;
+	}
+
 	nav li a {
 		outline-width: .25em !important;
 	}
