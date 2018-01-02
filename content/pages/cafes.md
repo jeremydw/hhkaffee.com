@@ -4,6 +4,6 @@ $view: /views/cafes.html
 $order: 2
 
 ---
-Eine Auswahl von fantastischen Hamburger Cafés.
+Eine Auswahl von herausragenden Hamburger Cafés.
 
 Beachten Sie, dass viele [Röstereien]([url('/content/pages/roasters.md')]) ebenfalls Café-Bereiche haben. Wir stellen Röstereien gesondert dar, um den besonderen Bezug zum Kaffee herauszustellen.

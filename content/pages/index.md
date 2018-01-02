@@ -8,4 +8,4 @@ $order: 0
 $hidden: true
 
 ---
-HH Kaffee ist die Website für großartige [Röstereien]([url('/content/pages/roasters.md')]) und [Cafés]([url('/content/pages/cafes.md')]) in Hamburg. Dazu bieten wir ein paar freundliche [Meinungen und Empfehlungen]([url('/content/pages/posts.md')]).
+HH Kaffee ist die Website für wirklich gute [Röstereien]([url('/content/pages/roasters.md')]) und [Cafés]([url('/content/pages/cafes.md')]) in Hamburg. Mit unseren eigenen [Meinungen und Empfehlungen]([url('/content/pages/posts.md')]), zu Kaffee in Hamburg und zu Kaffee allgemein.
