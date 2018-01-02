@@ -284,7 +284,7 @@ a:active {
 
 strong,
 em {
-	font-style: italic;
+	font-style: normal;
 	font-weight: 400;
 }
 
@@ -343,11 +343,6 @@ span,
 	div#promo,
 	ul.meta {
 		display: none;
-	}
-
-	strong,
-	em {
-		font-weight: 500;
 	}
 
 }
