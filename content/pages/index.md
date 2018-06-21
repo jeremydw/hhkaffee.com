@@ -1,11 +1,1 @@
----
-$title@: Kaffee in und aus Hamburg
-$view: /views/index.html
-$path: /
-$localization:
-  path: /{locale}/
-$order: 0
-$hidden: true
-
----
-HH Kaffee ist die Website für wirklich gute [Röstereien]([url('/content/pages/roasters.md')]) und [Cafés]([url('/content/pages/cafes.md')]) in Hamburg. Mit unseren eigenen [Meinungen und Empfehlungen]([url('/content/pages/posts.md')]), zu Kaffee in Hamburg und zu Kaffee allgemein.
+LS0tCiR0aXRsZUA6IEthZmZlZSBpbiB1bmQgYXVzIEhhbWJ1cmcKJHZpZXc6IC92aWV3cy9pbmRleC5odG1sCiRwYXRoOiAvCiRsb2NhbGl6YXRpb246CiAgcGF0aDogJy97bG9jYWxlfS8nCiRvcmRlcjogMAokaGlkZGVuOiB0cnVlCmZvbzogODQxMzcKLS0tCkhIIEthZmZlZSBpc3QgZGllIFdlYnNpdGUgZkM8ciB3aXJrbGljaCBndXRlIFtSQzZzdGVyZWllbl0oW3VybCgnL2NvbnRlbnQvcGFnZXMvcm9hc3RlcnMubWQnKV0pIHVuZCBbQ2FmQylzXShbdXJsKCcvY29udGVudC9wYWdlcy9jYWZlcy5tZCcpXSkgaW4gSGFtYnVyZy4gTWl0IHVuc2VyZW4gZWlnZW5lbiBbTWVpbnVuZ2VuIHVuZCBFbXBmZWhsdW5nZW5dKFt1cmwoJy9jb250ZW50L3BhZ2VzL3Bvc3RzLm1kJyldKSwgenUgS2FmZmVlIGluIEhhbWJ1cmcgdW5kIHp1IEthZmZlZSBhbGxnZW1laW4uCg==
