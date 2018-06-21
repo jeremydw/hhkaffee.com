@@ -1,5 +1,5 @@
 ---
-foo: 48384
+foo: 16610
 $title@: Kaffee in und aus Hamburg
 $view: /views/index.html
 $path: /
