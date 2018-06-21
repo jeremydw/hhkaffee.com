@@ -1,10 +1,10 @@
 ---
-foo: 16168
+foo: 95541
 $title@: Kaffee in und aus Hamburg
 $view: /views/index.html
 $path: /
 $localization:
-  path: /{locale}/
+  path: '/{locale}/'
 $order: 0
 $hidden: true
 ---
